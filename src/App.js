@@ -1,9 +1,12 @@
+import {Component} from "react";
 import './App.css';
 import Showalert from './Components/alert';
 import Counter from './Components/counter';
 
-function App(){
-    return(
+class App extends Component{
+
+    render () {
+            return(
     <div className='container'>
         <h1>Hello</h1>
         <div className="row">
@@ -14,6 +17,11 @@ function App(){
         <Showalert/>
     </div>
     )
+    }
 }
+// function App(){
+
+
+// }
 
 export default App;
