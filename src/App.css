@@ -18,6 +18,7 @@
     border: black solid 2px;
 }
 button{
-    padding: 30px 50px;
-    margin: 20px;
+    padding: 20px 30px;
+    margin: 20px auto;
 }
+div{color: black;}
