@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Showalert from './Components/alert';
+import Counter from './Components/counter';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+    return(
+    <div className='container'>
+        <h1>Hello</h1>
+        <div className="row">
+            <div className="col-sm-1 col-lg-5">col5</div>
+            <div className="col-sm-11 col-lg-7">col7</div>
+        </div>
+        <Counter/>
+        <Showalert/>
     </div>
-  );
+    )
 }
 
 export default App;
